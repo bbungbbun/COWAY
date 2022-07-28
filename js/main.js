@@ -10,6 +10,8 @@ $(`.ewrap .box`).on('click',function(e){
   let pic = $(this).find('.pic').html();
 
   $('.view figure').html(pic);
+  $('.view .txtBox').html('');
+
 });
 $('.btnClose, .wrapClose').on('click',function(){
   $('.view').hide();
@@ -20,7 +22,7 @@ $(`.review .item`).on('click',function(e){
   $('.view').fadeIn();
 
   let pic = $(this).find('.pic').html();
-  let txt = $(this).find('.txt').html();
+  let txt = $(this).find('.txt').html(); 
 
   $('.view figure').html(pic);
   $('.view .txtBox').html(txt);

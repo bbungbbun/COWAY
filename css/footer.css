@@ -24,16 +24,18 @@
 }
 
 .quick h3{
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
     width: 40%;
     word-break: keep-all;
     padding-right: 10px;
+    font-weight: 600;
 }
 
 .quick .sub{
     color: #999;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 18px;
     word-break: keep-all;
     width: 60%;
 }
