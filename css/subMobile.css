@@ -91,12 +91,15 @@
 
 .fttit{
     text-align: left;
-    padding: 30px;
+    padding: 0 30px;
+    padding-top: 30px;
+    margin-bottom: 0;
 }
 
 .fttit img{
     width: 15px;
     margin-right: 6px;
+    margin-bottom: 2px;
 }
 
 .black{
@@ -130,7 +133,7 @@
 }
 
 .ftwrap h3{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 12px;
 }
@@ -141,7 +144,8 @@
 }
 
 .ulwrap{
-    padding-top: 12px;
+    padding-top: 16px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -175,7 +179,6 @@
     bottom: 0;
     left: 0;
     box-sizing: border-box;
-    
 }
 
 .filter button{
